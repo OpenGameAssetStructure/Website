@@ -40,27 +40,29 @@ Example:
     * act7_epilogue
       * scene_009_HappilyEverAfter
     * base
-      * character
+      * characters
         * Shopkeeper
           * BaseImage_CUT_cutout
-      * group
+      * groups
         * faction
         * nation
         * city
         * tribe
-      * location
+      * locations
         * Home
           * Bedroom
           * Bathroom
           * Livingroom
         * Restaurant
-      * determination
+      * determinations
         * statistics
         * trade
         * producers
         * consumers
-      * prop
+      * props
         * BaseImage_CUT_cutout
+      * supernumerary
+        * NPC1
     * static
       * ConfigurationMenu      
       * Credits
@@ -93,3 +95,9 @@ Example:
   * gamemaker
     * installscripts
     * installers
+    
+
+The multiplicity of the theatrical versions of Core Knowledge folders is done because it suggests these are broad terms containing many items.
+    
+The supernumerary is a term generally used in theatre. In film these are generally called Extra's.
+Extra would be confusion, because such a general term could mean anything in a multidimensional folder structure.
